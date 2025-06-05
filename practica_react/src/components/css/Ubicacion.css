@@ -1,0 +1,23 @@
+/* src/components/Ubicacion.css */
+.ubicacion-container {
+  padding: 2rem;
+  text-align: center;
+  background: var(--color-bg-light);
+}
+.ubicacion-container h2 {
+  margin-bottom: 1rem;
+  color: var(--color-primary);
+}
+.map-wrapper {
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  border: 1px solid #ddd;
+  border-radius: 0.5rem;
+  overflow: hidden;
+}
+.map-wrapper iframe {
+  width: 100%;
+  height: 400px;
+  border: none;
+}
