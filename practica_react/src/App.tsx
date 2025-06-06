@@ -5,14 +5,15 @@ import { Home } from './components/tsx/home';
 import { Ubicacion } from './components/tsx/Ubicacion';
 import { Productos } from './components/tsx/Productos';
 import { NavBar } from './components/tsx/NavBar';
-import { InstrumentosAVM } from './components/tsx/InstrumentosAVM'
-import { CategoriaAVM } from './components/tsx/CategoriaAVM';
+
 import { Carrito } from './components/tsx/Carrito';
 import { Login } from './components/tsx/Login';
 
 // Importar Route Guards
 import { AdminRoute } from './components/tsx/AdminRoute';
 import { ClienteRoute } from './components/tsx/ClienteRoute';
+import { InstrumentosAVM } from './moduls/admin/InstrumentosAVM';
+import { CategoriaAVM } from './moduls/admin/CategoriaAVM';
 
 
 function App() {

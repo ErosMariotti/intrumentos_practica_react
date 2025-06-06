@@ -5,8 +5,8 @@ import {
   deleteInstrumento,
 } from '../../service/instrumentoService'
 import { FaEdit, FaTrash } from 'react-icons/fa'
-import '../css/InstrumentosAVM.css'
-import { FormularioProducto } from './FormularioProducto'
+import '../../components/css/InstrumentosAVM.css'
+import { FormularioProducto } from '../../components/tsx/FormularioProducto'
 
 
 export const InstrumentosAVM: React.FC = () => {
